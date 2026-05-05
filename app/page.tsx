@@ -1,48 +1,48 @@
 import Image from "next/image";
 import type { ReactNode } from "react";
 
-const EMAIL = "hello@logikos.dev";
+const EMAIL = "info@logikos.dev";
 
 const systems = [
   {
-    name: "Asset Management System",
-    desc: "Track and manage company assets across locations and departments.",
+    name: "Asset Management",
+    desc: "Track equipment, ownership, location, and lifecycle in one place.",
   },
   {
     name: "Service Desk Plus",
-    desc: "IT helpdesk and ticketing system for teams of any size.",
+    desc: "Route requests, assign work, and keep support visible across your team.",
   },
   {
     name: "FloorLens",
-    desc: "Floor plan and space management with live occupancy insights.",
+    desc: "Manage spaces, occupancy, and floor layouts with live operational insight.",
   },
   {
     name: "Canteen Management System",
-    desc: "Meal ordering, inventory control, and automated billing.",
+    desc: "Simplify meal ordering, inventory, and billing for daily operations.",
   },
   {
     name: "Hostel Management System",
-    desc: "Room allocation, resident records, and payment tracking.",
+    desc: "Handle room allocation, resident records, and payments without manual work.",
   },
   {
     name: "Hotel Management System",
-    desc: "End-to-end reservations, check-in/out, and housekeeping workflows.",
+    desc: "Connect reservations, check-in/out, and housekeeping into one workflow.",
   },
   {
     name: "Point of Sale (POS)",
-    desc: "Fast checkout, inventory management, and daily sales analytics.",
+    desc: "Speed up checkout while syncing inventory and daily sales data.",
   },
   {
     name: "Hotel Website",
-    desc: "Booking-ready web presence for the hospitality industry.",
+    desc: "Turn your hotel website into a booking-ready sales channel.",
   },
   {
     name: "Network Monitoring System",
-    desc: "Real-time device and connectivity dashboards with instant alerts.",
+    desc: "See device health, connectivity, and alerts in real time.",
   },
   {
     name: "Billing System",
-    desc: "Automated invoicing, payment tracking, and financial reporting.",
+    desc: "Automate invoicing, payment tracking, and reporting with fewer errors.",
   },
 ];
 
@@ -126,25 +126,25 @@ export default function Home() {
           On-Demand System Development
         </div>
         <h1 className="text-5xl sm:text-6xl font-bold text-navy leading-tight tracking-tight max-w-3xl mx-auto">
-          Software Systems Built Around Your Business
+          Custom Software That Removes Manual Work
         </h1>
         <p className="mt-6 text-xl text-zinc-500 max-w-2xl mx-auto leading-relaxed">
-          We design and develop custom management and operational software —
-          tailored to your workflow and connected to the tools your team already
-          uses.
+          We design and build business systems that fit how your team actually
+          works. Reduce spreadsheets, speed up operations, and connect the
+          tools your business already relies on.
         </p>
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href={`mailto:${EMAIL}`}
             className="rounded-full bg-brand px-8 py-4 text-base font-semibold text-white hover:bg-brand-light transition-colors"
           >
-            Start a Project
+            Discuss Your Project
           </a>
           <a
             href="#systems"
             className="rounded-full border border-zinc-200 px-8 py-4 text-base font-semibold text-navy hover:bg-zinc-50 transition-colors"
           >
-            See What We Build
+            Explore Solutions
           </a>
         </div>
       </section>
@@ -153,10 +153,12 @@ export default function Home() {
       <section id="systems" className="bg-zinc-50 py-24">
         <div className="mx-auto max-w-6xl px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-navy">Systems We&apos;ve Built</h2>
+            <h2 className="text-3xl font-bold text-navy">
+              Systems We Build to Solve Real Operations Problems
+            </h2>
             <p className="mt-4 text-zinc-500 max-w-xl mx-auto">
-              A track record across industries — from hospitality and retail to
-              IT operations and facilities management.
+              Use these as starting points. We tailor every system to your
+              process, reporting needs, and team structure.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -180,12 +182,10 @@ export default function Home() {
       <section className="py-24">
         <div className="mx-auto max-w-6xl px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-navy">
-              Seamlessly Connected
-            </h2>
+            <h2 className="text-3xl font-bold text-navy">Built to Integrate</h2>
             <p className="mt-4 text-zinc-500 max-w-xl mx-auto">
-              Every system we build can be wired up to the communication and
-              data tools your team relies on.
+              Every system can connect to the communication and data tools your
+              team already uses, so adoption is easier and manual handoffs drop.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -271,7 +271,7 @@ export default function Home() {
       <section className="bg-zinc-50 py-24">
         <div className="mx-auto max-w-6xl px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-navy">How It Works</h2>
+            <h2 className="text-3xl font-bold text-navy">A Simple Delivery Process</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {steps.map((step) => (
@@ -293,11 +293,12 @@ export default function Home() {
       <section className="bg-navy py-24">
         <div className="mx-auto max-w-6xl px-6 text-center">
           <h2 className="text-4xl font-bold text-white mb-4">
-            Ready to Build Your System?
+            Let&apos;s Remove the Work You Shouldn&apos;t Be Doing Manually
           </h2>
           <p className="text-zinc-400 max-w-xl mx-auto mb-10 text-lg leading-relaxed">
-            No lengthy RFPs, no guesswork. Just a conversation about your
-            problem and how we can solve it.
+            If your team is still using spreadsheets, repeated data entry, or
+            disconnected tools, we can design a better system around the way
+            you work.
           </p>
           <a
             href={`mailto:${EMAIL}`}
