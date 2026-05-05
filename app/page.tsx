@@ -333,9 +333,17 @@ export default function Home() {
             height={48}
             className="brightness-0 invert"
           />
-          <p className="text-zinc-500 text-sm">
-            &copy; 2025 logikos.dev. All rights reserved.
-          </p>
+          <div className="text-center sm:text-right">
+            <p className="text-zinc-500 text-sm">
+              &copy; 2025 logikos.dev. All rights reserved.
+            </p>
+            <a
+              href="mailto:info@logikos.dev"
+              className="mt-1 inline-block text-sm font-medium text-white hover:text-brand-light transition-colors"
+            >
+              info@logikos.dev
+            </a>
+          </div>
         </div>
       </footer>
     </div>

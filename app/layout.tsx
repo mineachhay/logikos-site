@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "logikos.dev — On-Demand System Development",
   description:
-    "Custom management and operational software built around your business. Asset management, POS, hotel systems, billing, integrations with email, Telegram, and more.",
+    "Custom management and operational software built around your business. Contact info@logikos.dev for asset management, POS, hotel systems, billing, integrations, and more.",
 };
 
 export default function RootLayout({
